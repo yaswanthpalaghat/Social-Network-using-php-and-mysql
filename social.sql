@@ -108,7 +108,8 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `date_added` datetime NOT NULL,
   `user_closed` varchar(3) NOT NULL,
   `deleted` varchar(3) NOT NULL,
-  `likes` int(11) NOT NULL
+  `likes` int(11) NOT NULL,
+  `image` varchar(60) NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=66 ;
 
 -- --------------------------------------------------------
