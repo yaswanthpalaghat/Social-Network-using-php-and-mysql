@@ -88,7 +88,7 @@ if(isset($_POST['register_button'])){
 		}
 	}
 
-	if(strlen($password > 30 || strlen($password) < 5)) {
+	if(strlen($password > 30) || strlen($password) < 5) {
 		array_push($error_array, "Your password must be betwen 5 and 30 characters<br>");
 	}
 
